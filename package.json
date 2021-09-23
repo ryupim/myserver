@@ -2,10 +2,17 @@
   "name": "myserver",
   "version": "1.0.0",
   "description": "My 1st Web Server",
-  "main": "html-server.js",
+  "main": "serve.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "R.Shingai",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryupim/myserver.git"
+  },
+  "author": "RS",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
